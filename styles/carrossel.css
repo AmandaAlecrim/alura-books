@@ -12,7 +12,8 @@
     width: 100%;
 }
 
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev,
+.swiper-button-next {
     display: none;
 }
 
@@ -29,15 +30,14 @@
     padding: 1em;
 }
 
-.card__descricao {
+.card__descricao,
+.card__botoes{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 0.5em;
 }
 
-.card__botoes {
-    display: flex;
-    justify-content: space-between;
+.card__descricao {
+    margin-bottom: 0.5em;
 }
 
 .botoes {
